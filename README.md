@@ -14,13 +14,11 @@ Strona tytułowa bazująca na [szablonie][wefimszablon] dla wefim 2022.
 
 ## Autorzy
 
-- [@Bukkk] Dostosowanie do [tectonic](https://github.com/tectonic-typesetting/tectonic)
+- [@Bukkk](https://github.com/Bukkk) Dostosowanie do [tectonic](https://github.com/tectonic-typesetting/tectonic)
 
 - mgr inż. Górka Mateusz, [@goorkamateusz](https://goorkamateusz.github.io)
-- dr inż. Tomasz Kubik\
- [Strona internetowa](http://tomasz.kubik.staff.iiar.pwr.wroc.pl/)
-- dr inż. Adam Ratajczak\
-[Strona internetowa](http://diablo.iiar.pwr.edu.pl/~ar/LaTeX/mgr.php)
+- dr inż. Tomasz Kubik, [Strona internetowa](http://tomasz.kubik.staff.iiar.pwr.wroc.pl/)
+- dr inż. Adam Ratajczak, [Strona internetowa](http://diablo.iiar.pwr.edu.pl/~ar/LaTeX/mgr.php)
 
 ## Licencja
 

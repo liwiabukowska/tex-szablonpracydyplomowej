@@ -7,7 +7,7 @@ Aby skompilować szablon wystarczy w katalogu głównym wywołać komendę:
 tectonic -X build
 `
 
-Szablon graficznie wygląda tak: [przykład](example/default.pdf)
+Szablon graficznie wygląda tak: [przykład](default.pdf)
 
 Szablon bazujący na szablonach Tomasza Kubika oraz Adama Ratajczaka z dawnego wydziału elektroniki.
 Strona tytułowa bazująca na [szablonie][wefimszablon] dla wefim 2022.

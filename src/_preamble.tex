@@ -1,0 +1,44 @@
+\documentclass[a4paper,onecolumn,twoside,12pt,extrafontsizes]{memoir}
+
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[polish]{babel} 
+\usepackage{setspace}
+\usepackage{tabularx}
+\usepackage{color,calc}
+\usepackage[hidelinks]{hyperref} 
+\renewcommand*\ttdefault{txtt}
+\usepackage{threeparttable}
+\usepackage{nameref}
+\usepackage{indentfirst}
+\usepackage[none]{hyphenat}
+
+\input{../template/customisation.tex}
+\input{../template/src/metadata-definitions.tex}
+\input{../template/src/common.tex}
+\input{../template/src/fordebug.tex}
+\input{../template/src/listings.tex}
+\input{../template/src/ifpdf.tex}
+\input{../template/src/titlepage.tex}
+\input{../template/src/custom.tex}
+
+\makeatletter
+\newcommand\@university{Politechnika Wrocławska}
+\newcommand\@faculty{Wydział informatyki i telekomunikacji}
+\newcommand\@field{Informatyka algorytmiczna}
+\newcommand\@specialisation{SPECJALNOŚĆ}
+\newcommand\@titleENG{English title EXAMPLE}
+\newcommand\@titleShort{Polski tytuł przykładowy}
+\newcommand\@supervisor{dr inż. Imię Nazwisko}
+\newcommand\@headerfirstline{PRACA DYPLOMOWA}
+\newcommand\@headersecondline{INŻYNIERSKA}
+\newcommand\@keywords{}
+\makeatother
+
+\title{Polski tytuł przykładowy}
+\author{Imię Nazwisko}
+\date{Miasto, 2023}
+
+\begin{document}

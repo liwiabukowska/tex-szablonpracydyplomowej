@@ -1,58 +1,33 @@
 # Szablon pracy dyplomowej
 
-**[Przykład PDF](versions/PracaDyplomowa-LAST.pdf)**
+Fork [szablonu](https://github.com/goorkamateusz/praca-dyplomowa-szablon) o możliwość kompilacji LaTeX w [tectonic](https://github.com/tectonic-typesetting/tectonic)
 
-Strona tytułowa bazująca na [szablonie][wefimszablon] dla wefim 2022.
+Aby skompilować szablon wystarczy w katalogu głównym wywołać komendę:
+`
+tectonic -X build
+`
 
-Minimalny szablon zawierający tylko stronę tytułową zostawiłem na [branch'u titlePage (tutaj)](https://github.com/goorkamateusz/praca-dyplomowa-szablon/tree/titlePage).
-
-## Autorzy
-Górka Mateusz, [@goorkamateusz](https://goorkamateusz.github.io)
+Szablon graficznie wygląda tak: [przykład](example/default.pdf)
 
 Szablon bazujący na szablonach Tomasza Kubika oraz Adama Ratajczaka z dawnego wydziału elektroniki.
+Strona tytułowa bazująca na [szablonie][wefimszablon] dla wefim 2022.
 
+## Autorzy
+
+- [@Bukkk] Dostosowanie do [tectonic](https://github.com/tectonic-typesetting/tectonic)
+
+- mgr inż. Górka Mateusz, [@goorkamateusz](https://goorkamateusz.github.io)
 - dr inż. Tomasz Kubik\
  [Strona internetowa](http://tomasz.kubik.staff.iiar.pwr.wroc.pl/)
 - dr inż. Adam Ratajczak\
 [Strona internetowa](http://diablo.iiar.pwr.edu.pl/~ar/LaTeX/mgr.php)
-
-## Potrzebujesz tylko strony tytułowej?
-
-Znajdź w obecnym szablonie deklarację `\def\maketitle` i podmień na to co znajdziesz w pliku [titlepage.tex](template/src/titlepage.tex).
-Jeżeli są jakieś błędny prawdopodobnie zmienne o danych, jak tytuł, autor są różne i zintegruj je do deklaracji w [metadata-definitions.tex](template/src/metadata-definitions.tex) i [metadata.tex](content/metadata.tex).
-
-## Life hacks
-
-### Wykorzystywane wtyczki do Visual Studio Code
-
-- [LaTeX](https://marketplace.visualstudio.com/items?itemName=mathematic.vscode-latex)\
-_Ogromnie przydatne narzędzie do sprawdzania poprawności ortograficznej, składniowej i gramatycznej._
-- [LaTeX Utilities](https://marketplace.visualstudio.com/items?itemName=tecosaur.latex-utilities)
-- [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
-- [ToDo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
-- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-
-W pliku `.vscode/settings.json` pozostawiłem przydatne konfiguracje edytora i wtyczek.
-
-### Snippety
-[Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
-
-### Bash - twój przyjaciel automatyzacji
-Zapisywanie kolejnych wersji w plikach pdf.
-
-```sh
-git tag x.y.z
-. save.sh
-```
-
-*Skrypt korzysta z folderu `/latex-build`, jako źródła źródła w którym znajduje się zbudowana wersja pracy w PDF (zgodnie z ustawieniami w `/.vscode/settings.json`, oraz folderu `/versions` do zapisywania kolejnych wersji pracy w formacie PDF).
 
 ## Licencja
 
 Szablon jest udostępniany na licencji Creative Commons: Uznanie autorstwa - Użycie niekomercyjne - Na tych samych warunkach, 3.0 Polska, Wrocław 2022.
 Oznacza to, że wszystkie zawarte nim treści można kopiować i  wykorzystywać do celów niekomercyjnych, a także tworzyć na ich podstawie utwory zależne pod warunkiem podania autora i nazwy licencjodawcy oraz udzielania na utwory zależne takiej samej licencji. Tekst licencji jest dostępny pod adresem: [Creative Commons 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/pl/).
 
-<img width="200px" src="img/by-nc-sa.png"/>
+<img width="200px" src="src/img/by-nc-sa.png"/>
 
 Edycja i rozpowszechnianie szablonu wymaga podania wszystkich autorów, najlepiej wraz z odnośnikami do miejsca w których szablon jest udostępniany.
 
